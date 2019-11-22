@@ -16,8 +16,8 @@ gem 'puma', '~> 3.11'
 # Use ActiveModel has_secure_password
 
 gem 'rb-readline'
-
-
+gem "nokogiri", ">= 1.10.4"
+gem "loofah", ">= 2.3.1"
 gem 'bcrypt', '~> 3.1.7'
 
 

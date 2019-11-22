@@ -25,3 +25,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+gihub token
+fa36e2335e8165e9e8eb1d2dceb60305012cdd8d
