@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_22_144149) do
+ActiveRecord::Schema.define(version: 2019_11_22_145957) do
 
   create_table "attractions", force: :cascade do |t|
     t.string "name"
@@ -37,8 +37,8 @@ ActiveRecord::Schema.define(version: 2019_11_22_144149) do
   end
 
   create_table "trips", force: :cascade do |t|
-    t.datetime "start_date"
-    t.datetime "end_date"
+    t.date "start_date"
+    t.date "end_date"
     t.integer "location_id"
     t.integer "user_id"
     t.datetime "created_at", null: false
