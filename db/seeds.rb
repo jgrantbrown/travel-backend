@@ -7,3 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create(name: "Jay", username: "jayb", password: "password")
+anaheim = Location.create(city:'Anaheim' , state: "California", country: "USA")
+disney = anaheim.attractions.create(name: "Disneyland", description: "Happiest place on Earth")
+jay = User.first
+jay.trips.create()
