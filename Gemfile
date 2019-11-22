@@ -19,7 +19,7 @@ gem 'rb-readline'
 gem "nokogiri", ">= 1.10.4"
 gem "loofah", ">= 2.3.1"
 gem 'bcrypt', '~> 3.1.7'
-
+gem 'fast_jsonapi'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
